@@ -94,7 +94,7 @@ class AlbumCollectionViewController: UICollectionViewController {
 		}
 		// 2
 		PHPhotoLibrary.requestAuthorization { status in
-			completionHandler(status == .authorized)
+			//completionHandler(status == .authorized)
 		}
 
   }
